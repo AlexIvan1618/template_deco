@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="assets/js/index.js"></script>
+    <link rel="shortcut icon" href="img/logo/A.png" type="image/x-icon">
+    <title>Home</title>
+  </head>
+  <body onscroll="navbarActive()" onload="loader()" id="myDIV">
+    <div id="loader">
+      <lord-icon
+    src="https://cdn.lordicon.com/ulhdumaq.json"
+    trigger="loop"
+    style="width:250px;height:250px">
+</lord-icon>
+    </div>
+    <div class="container">
+      <!------------- header ---------------------->
+
+      <div class="header" id="header">
+
+
+        <section class="logo" style="display: flex; align-items: center;gap: 10px;">
+          <lord-icon
+                src="https://cdn.lordicon.com/dqunxaob.json"
+                trigger="hover"
+                colors="primary:#121331,secondary:#b4b4b4"
+                style="width: 45px; height: 45px"
+              >
+              </lord-icon
+              >
+          <a href="#home" style="text-decoration: none; color: black"
+            ><span style="font-weight: 300; text-transform: uppercase"
+              >ivoire</span
+            ><span style="font-weight: 800; text-transform: uppercase"
+              >deco</span
+            ></a
+          >
+        </section>
+
+<section class="menu">
+<span class="material-symbols-outlined" style="font-size: 50px" onclick="openMenu()">
+  menu
+  </span>
+</section>
+<section id="menu_smooth" class="menu_inactive">
+<span id="closeBtn" style="font-size: 50px" class="material-symbols-outlined" onclick="closeMenu()">
+  close
+  </span>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#product">Product</a></li>
+    <li><a href="#artisan">Artisan</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</section>
+
+        <section class="navbar_parent" id="navbar">
+          <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#artisan">Artisan</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <!------------- end header ---------------------->
+
+      <!-------------- product part --------------------------->
+
+      <section class="container-text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+          distinctio molestiae quia at accusantium dolorem sunt dolores ipsum
+          illum amet nisi deleniti sit reiciendis ut temporibus, dolor ea quod
+          magni.
+        </p>
+      </section>
+
+      <button>See more</button>
+ 
+    </div>
+
+    <div class="container-2" id="product">
+      <section>
+        <h3 class="title">Our product</h3>
+      </section>
+
+      <section class="product-grid" style="margin-bottom: 10vh">
+        <main><img src="img/image1.jpg" alt="" /></main>
+        <main><img src="img/image5.jpg" alt="" /></main>
+        <main><img src="img/image3.jpg" alt="" /></main>
+        <main><img src="img/image4.jpg" alt="" /></main>
+      </section>
+
+      <section>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          obcaecati recusandae ipsa eaque repudiandae facere itaque nulla
+          tenetur laboriosam alias! Et dolore hic quas sequi quod quidem commodi
+          necessitatibus ipsam. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Sed consequatur cumque ab sequi provident accusamus,
+          veritatis optio aliquam corporis tenetur accusantium? Corrupti quae
+          aperiam natus corporis, iusto perferendis deserunt aliquid.
+        </p>
+      </section>
+    </div>
+
+    <!-----------------------end product part-------------------->
+
+    <!------------------------ artisan part ------------------------>
+    <div class="container-3" id="artisan">
+      <section>
+        <h3 class="artisan-title">Our Artisan</h3>
+      </section>
+      <section class="card">
+        <main>
+          <img src="/img/artisan/avatar4.jpg" alt="" />
+          <h4 class="artisan_name">Lorem ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            perspiciatis fugiat placeat mollitia similique alias accusantium
+            velit distinctio dolore, error illo illum repudiandae natus atque.
+            Vero temporibus, eligendi enim delectus dignissimos nihil quasi
+            accusamus id voluptas expedita, voluptate quam! Consequatur.
+          </p>
+        </main>
+        <main>
+          <img src="/img/artisan/avatar3.jpg" alt="" />
+          <h4 class="artisan_name">Lorem ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            perspiciatis fugiat placeat mollitia similique alias accusantium
+            velit distinctio dolore, error illo illum repudiandae natus atque.
+            Vero temporibus, eligendi enim delectus dignissimos nihil quasi
+            accusamus id voluptas expedita, voluptate quam! Consequatur.
+          </p>
+        </main>
+        <main>
+          <img src="/img/artisan/avatar2.jpg" alt="" />
+          <h4 class="artisan_name">Lorem ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            perspiciatis fugiat placeat mollitia similique alias accusantium
+            velit distinctio dolore, error illo illum repudiandae natus atque.
+            Vero temporibus, eligendi enim delectus dignissimos nihil quasi
+            accusamus id voluptas expedita, voluptate quam! Consequatur.
+          </p>
+        </main>
+      </section>
+    </div>
+
+    <div class="container-4" id="contact">
+      <section class="contact">
+        <main class="contact_form">
+          <form action="#">
+            <section>
+              <h3 class="title">Contact us</h3>
+            </section>
+            <input type="text" name="fullname" placeholder="FULL NAME" /><br />
+            <input type="text" name="fullname" placeholder="EMAIL" /><br />
+            <textarea
+              name="message"
+              rows="5"
+              cols="33"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="MESSAGE"
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </main>
+        <main class="contact_pic"></main>
+      </section>
+    </div>
+
+    <div class="container-5" id="about">
+      <h3 class="title">About</h3>
+      <section class="about_section">
+        <main>
+          <ul>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Ipsum</a></li>
+            <li><a href="">Dolor</a></li>
+            <li><a href="">sit</a></li>
+            <li><a href="">Amet</a></li>
+          </ul>
+        </main>
+      </section>
+      <section class="copyright">
+        <p>COPYRIGHT &copy; ALEX IVAN <span id="date"></span></p>
+      </section>
+      <script>
+        var date = new Date();
+        var year = date.getFullYear();
+        document.getElementById("date").innerHTML = year;
+      </script>
+    </div>
+  </body>
+</html>
